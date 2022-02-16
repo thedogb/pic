@@ -8,6 +8,7 @@ on:
 jobs:
   fix:
     runs-on: ubuntu-18.04
+    environment: zotero
     steps:
       - name: Fix
         run: |
